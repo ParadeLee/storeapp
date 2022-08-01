@@ -83,7 +83,7 @@ export default [
     },
     {
         path: '/home',
-        component: ()=> import("@/pages/Home"),// 路由懒加载，按需加载
+        component: ()=> import("@/pages/Home"),// 路由懒加载，按需加载 十分重要！！！
         // 路由元信息key不能瞎写；只能叫meta
         meta: { show: true }
     },
